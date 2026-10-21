@@ -49,7 +49,7 @@ with col1:
   div_12th = st.selectbox(
     "12th Division", [1, 2, 3, 4, 5, 6]
   )  # Jaise dataset mein values thin
-  aiee_rank = st.number_input("AIEEE Rank", min_value=1, max_value=5000, value=150)
+  aiee_rank = st.number_input("Entry Test Rank/Score", min_value=1, max_value=5000, value=150)
 
 with col2:
   # Dummy options for dropdowns based on your dataset
